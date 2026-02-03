@@ -1155,6 +1155,7 @@ MOBILE RESPONSIVENESS ↓
 
   .header__input--email {
     position: static;
+    padding-right: 32px;
   }
 
   .header__btn {
