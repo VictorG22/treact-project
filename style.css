@@ -1086,12 +1086,23 @@ MOBILE RESPONSIVENESS ↓
     width: 100%;
     text-align: center;
   }
+
+  #testimonials .img__container {
+    padding-right: 0;
+  }
  
   .service{
     width: auto;
     max-width: 384px;
   }
   
+  #quality .section__description{
+    padding-right: 0;
+  }
+  #values .section__description{
+    padding: 0;
+    padding-top: 32px;
+  }
   #steps .section__description{
     padding-left: 0;
   }
@@ -1213,5 +1224,16 @@ MOBILE RESPONSIVENESS ↓
 
   .footer__columns{
     width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .action__buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .start__btn{
+    margin: 0;
   }
 }
